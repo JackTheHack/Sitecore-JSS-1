@@ -13,7 +13,7 @@
     "language": "en"
   },
   "engines": {
-    "node": ">=8.1",
+    "node": ">=14.x",
     "npm": ">=5.6.0",
     "yarn": "yarn is not supported, please use npm"
   },
