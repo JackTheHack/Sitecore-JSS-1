@@ -10,7 +10,7 @@ import config from 'temp/config';
 import { config as packageConfig } from '../../package.json';
 
 export class SitecoreSitemapFetcher {
-  private GRAPHQL_ROOT_ITEM_PATH = `/sitecore/content/${config.jssAppName}/home`;
+  private GRAPHQL_ROOT_ITEM_PATH = `/sitecore/content/JSS-1/home`;
 
   private _graphqlSitemapService: GraphQLSitemapService;
   private _disconnectedSitemapService: DisconnectedSitemapService;
