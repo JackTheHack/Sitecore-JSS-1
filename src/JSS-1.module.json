@@ -1,0 +1,24 @@
+{
+    "namespace": "JSS-1",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/jss"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/jss"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/jss"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/jss"
+            }
+        ]
+    }
+}

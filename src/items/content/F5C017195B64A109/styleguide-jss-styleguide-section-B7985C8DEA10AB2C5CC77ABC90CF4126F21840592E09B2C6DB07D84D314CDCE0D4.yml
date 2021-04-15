@@ -1,0 +1,52 @@
+﻿---
+ID: "00f84515-7381-5b95-9a96-fe75422fc267"
+Parent: "7e60d908-1154-521d-a462-fbf8668bd66a"
+Template: "6f9bd721-d957-5438-bd14-cf6654b32193"
+Path: "/sitecore/content/JSS-1/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2111ce5a-2190-51ec-94ca-031b3b2c2f6d"
+      Hint: localContentList
+      Value: |
+        {3B967777-C8BF-56A2-B100-5D91BD39D7B9}
+        {0C8049EB-B256-5B45-8B97-023BC43B2121}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T010610Z
+    - ID: "2ef25480-8409-5250-a76c-c3d867340008"
+      Hint: heading
+      Value: Content List
+    - ID: "439f9c97-bcd6-5d8f-be16-cfeccc159efb"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "7b1cf49a-dc2f-56a0-9386-dfa4abb433fb"
+      Hint: sharedContentList
+      Value: |
+        {421D783C-AB27-5590-9E2E-FFECD8BA31E2}
+        {6F4568CA-B1FE-51AD-B313-EF4840DCE734}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20bde85d-7ce9-4529-872e-bac231666fac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210415T010611Z

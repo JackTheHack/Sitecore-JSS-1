@@ -1,0 +1,16 @@
+{
+    "namespace": "JSS-1-Content",
+    "references": [ "JSS-1" ],
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/JSS-1"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/jss"
+            }
+        ]
+    }
+}
