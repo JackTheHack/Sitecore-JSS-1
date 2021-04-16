@@ -4,6 +4,74 @@ Parent: "01b9b7c5-9a38-5b92-8e5e-f79a8c305189"
 Template: "e8eb771a-4fd1-5c70-810d-41098d5b650c"
 Path: "/sitecore/content/JSS-1/home/styleguide"
 Languages:
+- Language: "da-DK"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E02DDB9B-A062-5E50-924A-1940D7E053CE}"
+              p:after="p[@uid='{A93DB977-0DA1-5009-B0DF-CA12B325AE6C}']"
+              s:rname="ContentBlock"
+              s:ds="{28063B57-A5F6-5027-90E5-9D615AF8DB7A}"
+              s:id="{49C9C989-2F42-5AE2-99F5-B7DD1F2A7D20}"
+              s:par=""
+              s:ph="/jss-main" />
+            <r
+              uid="{34A6553C-81DE-5CD3-989E-853F6CB6DF8C}"
+              p:after="r[@uid='{E02DDB9B-A062-5E50-924A-1940D7E053CE}']"
+              s:rname="Styleguide-Layout"
+              s:id="{25833F66-195F-5675-A46E-96C26F5DDD90}"
+              s:par=""
+              s:ph="/jss-main" />
+            <r
+              uid="{B7C779DA-2B75-586C-B40D-081FCB864256}"
+              p:after="r[@uid='{34A6553C-81DE-5CD3-989E-853F6CB6DF8C}']"
+              s:rname="Styleguide-Section"
+              s:ds="{CF9E5B9B-1193-5153-891D-4265DEC8A9CB}"
+              s:id="{DADE61AE-8C27-5EC1-A5B1-B02CC436C4E1}"
+              s:par=""
+              s:ph="/jss-main/jss-styleguide-layout-{34A6553C-81DE-5CD3-989E-853F6CB6DF8C}-0" />
+            <r
+              uid="{E9F1295E-0D60-59A8-8CC6-F2B67851A76E}"
+              p:after="*[1=2]"
+              s:rname="Styleguide-Multilingual"
+              s:ds="{41E12A1E-D2A0-53CF-A74A-D1CFA96BCC19}"
+              s:id="{4D4F0795-D9B4-5A03-BB91-138B1BAE8A5F}"
+              s:par=""
+              s:ph="/jss-main/jss-styleguide-layout-{34A6553C-81DE-5CD3-989E-853F6CB6DF8C}-0/jss-styleguide-section-{B7C779DA-2B75-586C-B40D-081FCB864256}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210416T040050Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8bda449c-d802-40fa-8049-fc183a3c4916"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "cf295a16-cca8-50c7-bbbc-3822bc092fb0"
+      Hint: pageTitle
+      Value: Styleguide | Sitecore JSS
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210416T040050Z
 - Language: en
   Versions:
   - Version: 1

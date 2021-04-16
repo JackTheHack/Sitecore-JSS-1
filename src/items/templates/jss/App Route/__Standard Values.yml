@@ -15,13 +15,17 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{F0B1E363-81BD-5EDB-8754-EF9CD976B8C7}">
         <p
+          uid="{F09BC21A-FD5D-5C38-8B22-061FCCF30762}"
+          key="jss-header"
+          md="{FF067328-28F9-5DA5-B075-4BE9643F694C}" />
+        <p
+          uid="{62D4D1D8-B1B2-52EF-A984-589826E7BFEA}"
+          key="jss-main"
+          md="{1FF43460-608D-555B-9622-DA07F187DA9A}" />
+        <p
           uid="{DA6AAD9D-A91A-5D01-BCD0-E5A091810EC7}"
           key="jss-tabs"
           md="{0DF44BE9-A6EE-5530-9EC1-367B18370A84}" />
-        <p
-          uid="{9DC6534A-35AD-5230-8D87-4782001A02EC}"
-          key="jss-graphql-layout"
-          md="{1E93F773-1EED-53FD-9EB1-81FAFAF2F3BE}" />
         <p
           uid="{CBF0FA5D-F727-53B2-B9D8-C4AB4180A4AB}"
           key="jss-styleguide-layout"
@@ -31,20 +35,37 @@ SharedFields:
           key="jss-styleguide-section"
           md="{0B5C5134-CACC-543A-856D-4BF558464A72}" />
         <p
-          uid="{F09BC21A-FD5D-5C38-8B22-061FCCF30762}"
-          key="jss-header"
-          md="{FF067328-28F9-5DA5-B075-4BE9643F694C}" />
+          uid="{9DC6534A-35AD-5230-8D87-4782001A02EC}"
+          key="jss-graphql-layout"
+          md="{1E93F773-1EED-53FD-9EB1-81FAFAF2F3BE}" />
         <p
           uid="{A93DB977-0DA1-5009-B0DF-CA12B325AE6C}"
           key="jss-reuse-example"
           md="{51D57720-D409-56E4-9F75-E799152F816D}" />
-        <p
-          uid="{62D4D1D8-B1B2-52EF-A984-589826E7BFEA}"
-          key="jss-main"
-          md="{1FF43460-608D-555B-9622-DA07F187DA9A}" />
       </d>
     </r>
 Languages:
+- Language: "da-DK"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210416T040049Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b466074-eaac-4791-ba71-d1627087b0a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210416T040049Z
 - Language: en
   Versions:
   - Version: 1
