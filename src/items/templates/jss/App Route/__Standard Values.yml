@@ -15,10 +15,6 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{F0B1E363-81BD-5EDB-8754-EF9CD976B8C7}">
         <p
-          uid="{62D4D1D8-B1B2-52EF-A984-589826E7BFEA}"
-          key="jss-main"
-          md="{1FF43460-608D-555B-9622-DA07F187DA9A}" />
-        <p
           uid="{DA6AAD9D-A91A-5D01-BCD0-E5A091810EC7}"
           key="jss-tabs"
           md="{0DF44BE9-A6EE-5530-9EC1-367B18370A84}" />
@@ -42,6 +38,10 @@ SharedFields:
           uid="{A93DB977-0DA1-5009-B0DF-CA12B325AE6C}"
           key="jss-reuse-example"
           md="{51D57720-D409-56E4-9F75-E799152F816D}" />
+        <p
+          uid="{62D4D1D8-B1B2-52EF-A984-589826E7BFEA}"
+          key="jss-main"
+          md="{1FF43460-608D-555B-9622-DA07F187DA9A}" />
       </d>
     </r>
 Languages:
@@ -62,11 +62,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "509ca9aa-4f80-4069-9cdd-05b7b5e9ffee"
+      Value: "f872c0d6-4653-4451-98f2-d7a5e7dbea52"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010603Z
+      Value: 20210416T022411Z
