@@ -36,7 +36,43 @@ Languages:
               p:after="*[1=2]"
               s:ds="{0F4E4F5E-6944-4389-A01D-FE9F42711009}"
               s:id="{1D47BB6A-810F-5BA6-BA17-067E9CC0377C}"
-              s:ph="jss-main" />
+              s:pt="{4F7D1C6F-A59B-4DD3-BD22-DD86C4AFA34D}"
+              s:ph="jss-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{0DF9F905-7D2D-4AB3-BCF8-C33134ACEC1F}"
+                    s:name="Variation2"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="29140BFF7BDA453E892A289535BB3EBB"
+                        s:id="{9A4DADE8-93F9-4973-A675-CB2B2967C4B8}"
+                        s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                        s:value="Firefox" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="731434872DF64D06B8E239409B3C24FD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{7DED282E-CAB6-47A2-A29F-3D8E27DD8448}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="D9FC89E0508848A88A9452B01E487FD1"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
           </d>
         </r>
     - ID: "063f5109-3c76-5b31-be5f-b416b15dbc97"
@@ -53,7 +89,7 @@ Languages:
       Value: "A Treatise on Route-Level Fields in JSS"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "00ad4226-29ad-42ae-a150-2d69dcecb43e"
+      Value: "68365181-39aa-4e32-97f3-325165349c64"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -63,4 +99,4 @@ Languages:
       Value: Custom Route Type | Sitecore JSS
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210416T032715Z
+      Value: 20210416T033444Z

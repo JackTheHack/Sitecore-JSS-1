@@ -1,0 +1,46 @@
+﻿---
+ID: "7ded282e-cab6-47a2-a29f-3d8e27dd8448"
+Parent: "76137aaf-67b6-45fa-a3e3-4c7c3451d05c"
+Template: "f9642c42-5da0-56ec-b7ca-294bab30b11a"
+Path: "/sitecore/content/JSS-1/Components/MyTestComponent/MyTestComponentClone"
+SharedFields:
+- ID: "19b597d3-2edd-4ae2-aefe-4a94c7f10e31"
+  Hint: __Source Item
+  Value: "sitecore://master/{0F4E4F5E-6944-4389-A01D-FE9F42711009}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{0F4E4F5E-6944-4389-A01D-FE9F42711009}?lang=en&ver=1"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210416T033423Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "858f6589-b9f4-4f07-a825-e6f6f9002fe8"
+      Hint: heading
+      Value: "PERSONALIZE!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ff9075d-1cf0-4a0a-a56e-032a82265fd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210416T033444Z
