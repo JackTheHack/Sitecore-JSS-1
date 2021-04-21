@@ -5,7 +5,7 @@ import { useI18n } from 'next-localization';
 import { getPublicUrl } from 'lib/util';
 import ClientSidePlaceholder from 'lib/ClientSidePlaceholder.js';
 import {
-  Placeholder,
+  // Placeholder,
   LayoutServiceData,
   VisitorIdentification,
   useSitecoreContext,
