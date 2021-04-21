@@ -1,0 +1,66 @@
+﻿---
+ID: "79de146a-f9ff-5ea6-a71b-bfe2a7477e66"
+Parent: "e08be314-4783-54ce-8e67-8e946d6708e6"
+Template: "497d9cb2-68dc-52bb-809f-848708e65d0c"
+Path: "/sitecore/content/JSS/JSS-1/home/Page Components/home-jss-main-ContentBlock-1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "ContentBlock-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210421T012754Z
+    - ID: "3d6144c7-1c90-5864-ab97-32b1f0537ed7"
+      Hint: heading
+      Value: Welcome to Sitecore JSS
+    - ID: "764d22aa-6e79-50eb-9d58-ff0568203f48"
+      Hint: content
+      Value: |
+        <p>Thanks for using JSS!! Here are some resources to get you started:</p>
+        
+        <h3><a href="https://jss.sitecore.net" rel="noopener noreferrer">Documentation</a></h3>
+        <p>The official JSS documentation can help you with any JSS task from getting started to advanced techniques.</p>
+        
+        <h3><a href="/styleguide">Styleguide</a></h3>
+        <p>The JSS styleguide is a living example of how to use JSS, hosted right in this app.
+        It demonstrates most of the common patterns that JSS implementations may need to use,
+        as well as useful architectural patterns.</p>
+        
+        <h3><a href="/graphql">GraphQL</a></h3>
+        <p>JSS features integration with the Sitecore GraphQL API to enable fetching non-route data from Sitecore - or from other internal backends as an API aggregator or proxy.
+        This route is a living example of how to use an integrate with GraphQL data in a JSS app.</p>
+        
+        <div class="alert alert-dark">
+          <h4>This app is a boilerplate</h4>
+          <p>The JSS samples are a boilerplate, not a library. That means that any code in this app is meant for you to own and customize to your own requirements.</p>
+          <p>Want to change the lint settings? Do it. Want to read manifest data from a MongoDB database? Go for it. This app is yours.</p>
+        </div>
+        
+        <div class="alert alert-dark">
+          <h4>How to start with an empty app</h4>
+          <p>To remove all of the default sample content (the Styleguide and GraphQL routes) and start out with an empty JSS app:</p>
+          <ol>
+            <li>Delete <code>/src/components/Styleguide*</code> and <code>/src/components/GraphQL*</code></li>
+            <li>Delete <code>/sitecore/definitions/components/Styleguide*</code>, <code>/sitecore/definitions/templates/Styleguide*</code>, and <code>/sitecore/definitions/components/GraphQL*</code></li>
+            <li>Delete <code>/data/component-content/Styleguide</code></li>
+            <li>Delete <code>/data/content/Styleguide</code></li>
+            <li>Delete <code>/data/routes/styleguide</code> and <code>/data/routes/graphql</code></li>
+            <li>Delete <code>/data/dictionary/*.yml</code></li>
+          </ol>
+        </div>
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f52cc06c-28e0-4c80-a9ac-78c18229263d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210421T012754Z

@@ -1,0 +1,33 @@
+﻿---
+ID: "2f4f0215-7ecb-56ef-8147-276c5affd5c4"
+Parent: "33df0b31-c03e-5df2-83ed-c0d0dd9ffd7f"
+Template: "86c00cd1-211e-5c36-91ee-af2b561b4b0d"
+Path: "/sitecore/content/JSS/JSS-1/home/styleguide/Page Components/styleguide-jss-styleguide-section-2D806C25-DD46-51E3-93DE-63CF9035122C-0-Styleguide-Tracking-4"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Tracking-4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210421T012803Z
+    - ID: "2ef25480-8409-5250-a76c-c3d867340008"
+      Hint: heading
+      Value: Tracking
+    - ID: "439f9c97-bcd6-5d8f-be16-cfeccc159efb"
+      Hint: description
+      Value: <p><small>JSS supports tracking Sitecore analytics events from within apps. Give it a try with this handy interactive demo.</small></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f7b0484-d3a5-413c-bde1-b647c71ebaba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210421T012803Z

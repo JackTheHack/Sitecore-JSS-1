@@ -19,7 +19,7 @@ SharedFields:
   Value: "{6487FCD1-0113-4B10-A556-C6B02BDD4973}"
 - ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
   Hint: Name
-  Value: "JSS-1"
+  Value: jss
 - ID: "5764d2d4-724d-4313-a81b-9246c911faff"
   Hint: AppDatasourcesPath
   Value: "{9E173877-80A3-4986-8AE1-D99382007CCA}"
@@ -31,7 +31,13 @@ SharedFields:
   Value: "/dist/JSS-1"
 - ID: "797d2f63-d5c4-4c4c-b21f-d3e250e2ab12"
   Hint: DeploymentSecret
-  Value: AKQ@1
+  Value: 529227501d644c2986f11adb54bc428b
+- ID: "89849738-34ee-46bc-b525-825f1153189e"
+  Hint: ServerSideRenderingEngineEndpointUrl
+  Value: "http://rendering:3000/api/editing/render"
+- ID: "9016141c-ff51-40f2-9135-40f5161b9784"
+  Hint: ServerSideRenderingEngine
+  Value: http
 - ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
   Hint: DictionaryPath
   Value: "{7115BDE1-0D94-5703-B68B-4F11851E2CEE}"
@@ -62,13 +68,16 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\Admin
+    - ID: "5e8ed724-126a-4bb7-8106-85c2d1042c9e"
+      Hint: ServerSideRenderingEngineApplicationUrl
+      Value: "https://www.jss_1.localhost"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3d7b073-1c75-48c8-bfba-c315e8d6efba"
+      Value: "3dc3b80d-d3b9-4446-b300-ca47f68fb5cc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210420T231707Z
+      Value: 20210421T005749Z

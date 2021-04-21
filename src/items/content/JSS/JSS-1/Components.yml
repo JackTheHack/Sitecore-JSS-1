@@ -5,6 +5,10 @@ Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: "/sitecore/content/JSS/JSS-1/Components"
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Components
   Versions:
   - Version: 1
     Fields:
@@ -21,11 +25,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "56af05c6-75b1-4278-986a-e5990991c693"
+      Value: "73db8045-0b19-4a26-9d74-8336f41a8eef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210420T230851Z
+      Value: 20210421T012752Z

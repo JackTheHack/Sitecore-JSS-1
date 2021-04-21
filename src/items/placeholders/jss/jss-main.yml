@@ -7,6 +7,13 @@ SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
   Value: "jss-main"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {49C9C989-2F42-5AE2-99F5-B7DD1F2A7D20}
+    {25833F66-195F-5675-A46E-96C26F5DDD90}
+    {D24F19E4-0FB6-5E21-B89D-DA5D09F7A24C}
+    {199015FF-035F-5186-841F-54554148E9A7}
 Languages:
 - Language: en
   Fields:
@@ -29,11 +36,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75506667-14c1-470e-ab90-18c1dfed806c"
+      Value: "a6eb7a2c-1cc1-4df4-bb29-21f373b69d19"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210420T230421Z
+      Value: 20210421T012751Z

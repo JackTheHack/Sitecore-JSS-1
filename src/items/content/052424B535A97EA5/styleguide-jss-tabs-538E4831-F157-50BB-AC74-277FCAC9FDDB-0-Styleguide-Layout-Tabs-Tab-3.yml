@@ -1,0 +1,33 @@
+﻿---
+ID: "59910c78-bff1-545f-8f01-b205eeb3ab82"
+Parent: "33df0b31-c03e-5df2-83ed-c0d0dd9ffd7f"
+Template: "860aa544-ca8f-59d0-9172-91737df72f24"
+Path: "/sitecore/content/JSS/JSS-1/home/styleguide/Page Components/styleguide-jss-tabs-538E4831-F157-50BB-AC74-277FCAC9FDDB-0-Styleguide-Layout-Tabs-Tab-3"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Layout-Tabs-Tab-3"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210421T012802Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5bdfbc1-83b7-4d7d-9c11-0143168408b4"
+    - ID: "961c56ce-6e8d-562b-bfb7-5b1665d9d521"
+      Hint: title
+      Value: Tab 3
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210421T012802Z
+    - ID: "e2f28301-cf57-544c-a2ed-72668ff5c569"
+      Hint: content
+      Value: "<p>Tab 3 contents!</p>"
