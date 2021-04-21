@@ -1,6 +1,6 @@
 import { Field, Placeholder, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import { StyleguideComponentProps } from 'lib/component-props';
-import ClientSidePlaceholder from 'lib/ClientSidePlaceholder.js';
+// import ClientSidePlaceholder from 'lib/ClientSidePlaceholder.js';
 
 type StyleguideSectionProps = StyleguideComponentProps & {
   fields: {
