@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { useI18n } from 'next-localization';
 import { getPublicUrl } from 'lib/util';
+import ClientSidePlaceholder from 'lib/ClientSidePlaceholder.js';
 import {
   Placeholder,
   LayoutServiceData,
@@ -91,7 +92,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className="container">
-        <Placeholder name="jss-main" rendering={route} />
+        <ClientSidePlaceholder name="jss-main" rendering={route} hideInitialContents={false} />
       </div>
     </>
   );
