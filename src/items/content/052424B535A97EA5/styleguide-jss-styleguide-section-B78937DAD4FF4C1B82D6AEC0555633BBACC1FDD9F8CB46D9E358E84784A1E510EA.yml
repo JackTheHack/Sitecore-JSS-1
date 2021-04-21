@@ -15,7 +15,7 @@ Languages:
     - ID: "10cefeaa-46b8-5d3d-923f-a27bc356fc3a"
       Hint: sample2
       Value: |
-        <image alt="Sitecore JSS Logo" mediaid="{2E8B9ED2-331E-5760-9FA5-B45052ACD392}" />
+        <image mediaid="{2E8B9ED2-331E-5760-9FA5-B45052ACD392}" alt="Sitecore JSS Logo" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210421T012758Z
@@ -25,14 +25,14 @@ Languages:
     - ID: "48007699-3604-525d-ab17-b5255a582c73"
       Hint: sample1
       Value: |
-        <image alt="Sitecore Logo" mediaid="{F00F53C9-F1B3-52D3-8F42-53194DBE5020}" />
+        <image mediaid="{F00F53C9-F1B3-52D3-8F42-53194DBE5020}" alt="Sitecore Logo" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b384797c-f466-4358-987c-d9071b9425cb"
+      Value: "368c9b34-c644-4fa7-b98c-8db3a33b63ef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210421T012759Z
+      Value: 20210421T014913Z

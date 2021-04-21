@@ -5,6 +5,9 @@ Template: "f0cea512-6762-4b3e-9c39-b8006ced9e1c"
 Path: "/sitecore/content/JSS/JSS-1/home"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{1997D77E-E99E-48DD-9D5C-159583398AB9}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -49,11 +52,11 @@ Languages:
       Value: Welcome to Sitecore JSS
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e593c2b-4cda-4c3e-8598-3a85376d4ca7"
+      Value: "dadd5cdf-8dae-4316-8906-107d492dfde4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210421T012754Z
+      Value: 20210421T023057Z
