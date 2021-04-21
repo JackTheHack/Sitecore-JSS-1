@@ -1,8 +1,8 @@
 ﻿---
 ID: "1d47bb6a-810f-5ba6-ba17-067e9cc0377c"
-Parent: "d672f9cd-32ec-5599-a897-c52435d323c9"
+Parent: "0a8f1a9f-c19b-4d49-92b4-b0cf8e6bda36"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/jss/MyTestComponent
+Path: /sitecore/layout/Renderings/Project/JSS/MyTestComponent
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
@@ -12,39 +12,18 @@ SharedFields:
   Value: Office/16x16/airbrush.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/jss/MyTestComponent
+  Value: /sitecore/templates/Project/JSS/MyTestComponent
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "./Page Components|/sitecore/content/JSS-1/Components/MyTestComponent"
+  Value: "./Page Components|/sitecore/content/JSS/JSS-1/Components/MyTestComponent"
 Languages:
-- Language: "da-DK"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20210416T040048Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\JssImport
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "b6ad5724-d9c5-4f57-a4d9-a6c4af1498a0"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\JssImport
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20210416T040048Z
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210416T022411Z
+      Value: 20210420T230857Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -55,11 +34,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dde009de-fb3d-4f1c-a5a8-7971152043eb"
+      Value: "c902c7f6-5532-4b84-bb13-aa3b4359d05d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210416T032419Z
+      Value: 20210420T230857Z

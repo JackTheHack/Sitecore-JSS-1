@@ -1,8 +1,8 @@
 ﻿---
-ID: "e8d5aa1e-e487-5719-9b39-67973318d128"
-Parent: "e8eb771a-4fd1-5c70-810d-41098d5b650c"
+ID: "32630a73-8456-5e1c-86c1-5ddf1ea6b0ad"
+Parent: "f0cea512-6762-4b3e-9c39-b8006ced9e1c"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Project/jss/App Route/Page Metadata
+Path: /sitecore/templates/Project/JSS/App Route/Page Metadata
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010545Z
+      Value: 20210420T230357Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "14a9e36c-1724-43a2-99df-c6b57611d285"
+      Value: "5ae0c538-0bcc-4a87-bf0d-7b8d3220dbdf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010545Z
+      Value: 20210420T230357Z

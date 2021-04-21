@@ -5,19 +5,19 @@
         "includes": [
             {
                 "name": "layouts",
-                "path": "/sitecore/layout/Layouts/Project/jss"
+                "path": "/sitecore/layout/Layouts/Project/JSS"
             },
             {
                 "name": "placeholders",
-                "path": "/sitecore/layout/Placeholder Settings/Project/jss"
+                "path": "/sitecore/layout/Placeholder Settings/Project/JSS"
             },
             {
                 "name": "renderings",
-                "path": "/sitecore/layout/Renderings/Project/jss"
+                "path": "/sitecore/layout/Renderings/Project/JSS"
             },
             {
                 "name": "templates",
-                "path": "/sitecore/templates/Project/jss"
+                "path": "/sitecore/templates/Project/JSS"
             }
         ]
     }

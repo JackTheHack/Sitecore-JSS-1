@@ -2,7 +2,7 @@
 ID: "b1c9483b-e4c9-5bf8-8425-566018b20028"
 Parent: "f1ecd166-5e7c-51ec-8b02-b6207f9887cd"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/jss/GraphQL-ConnectedDemo/Data"
+Path: "/sitecore/templates/Project/JSS/GraphQL-ConnectedDemo/Data"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010553Z
+      Value: 20210420T230412Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4ae40e19-bd6a-4068-b18a-36237988e35f"
+      Value: "9bca14fd-b4e6-409d-a1e9-7a93bb1dc35c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010553Z
+      Value: 20210420T230412Z

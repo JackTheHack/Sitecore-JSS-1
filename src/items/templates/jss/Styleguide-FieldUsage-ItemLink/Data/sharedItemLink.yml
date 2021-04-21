@@ -2,7 +2,7 @@
 ID: "d5ec6a23-f9f1-5e17-bd27-c1e67a0a8ebb"
 Parent: "f7094b5b-e698-5b80-a74b-7cb5df58b062"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/jss/Styleguide-FieldUsage-ItemLink/Data/sharedItemLink"
+Path: "/sitecore/templates/Project/JSS/Styleguide-FieldUsage-ItemLink/Data/sharedItemLink"
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
@@ -26,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010551Z
+      Value: 20210420T230405Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -37,11 +37,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3bbe5c2-3f34-4649-8e63-576b3736f73e"
+      Value: "d4b69d82-e779-458f-91ee-1eb022dd8baa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010551Z
+      Value: 20210420T230405Z

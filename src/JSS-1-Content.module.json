@@ -5,11 +5,11 @@
         "includes": [
             {
                 "name": "content",
-                "path": "/sitecore/content/JSS-1"
+                "path": "/sitecore/content/JSS"
             },
             {
                 "name": "media",
-                "path": "/sitecore/media library/jss"
+                "path": "/sitecore/media library/Project/JSS"
             }
         ]
     }

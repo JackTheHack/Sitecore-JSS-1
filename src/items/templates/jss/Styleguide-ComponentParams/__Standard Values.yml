@@ -2,7 +2,7 @@
 ID: "2588a035-7ce5-5dde-974c-ee8429c88e0a"
 Parent: "e17f8bbd-9323-5d33-a581-ade45748a11f"
 Template: "e17f8bbd-9323-5d33-a581-ade45748a11f"
-Path: "/sitecore/templates/Project/jss/Styleguide-ComponentParams/__Standard Values"
+Path: "/sitecore/templates/Project/JSS/Styleguide-ComponentParams/__Standard Values"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010554Z
+      Value: 20210420T230415Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "97afefa1-9ba6-40f9-ab88-86b958ba7a0a"
+      Value: "2f299690-e856-4664-b481-a1529aa2b026"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010554Z
+      Value: 20210420T230415Z

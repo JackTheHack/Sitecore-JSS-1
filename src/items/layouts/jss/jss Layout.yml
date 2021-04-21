@@ -1,8 +1,8 @@
 ﻿---
-ID: "f0b1e363-81bd-5edb-8754-ef9cd976b8c7"
-Parent: "13e072a7-af2b-5027-a68c-e75e31d89756"
+ID: "74ab39c6-3d10-5be9-9e42-4e021fe41651"
+Parent: "9b9d0b7e-ecfc-4133-8072-a17141dc5630"
 Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
-Path: /sitecore/layout/Layouts/Project/jss/jss Layout
+Path: /sitecore/layout/Layouts/Project/JSS/jss Layout
 SharedFields:
 - ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
   Hint: Placeholders
@@ -14,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010603Z
+      Value: 20210420T230901Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +25,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "627674a9-1d3b-4a65-8557-2d755e705c9e"
+      Value: "31704452-c8a1-4551-8fbe-d75ff97105ae"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010603Z
+      Value: 20210420T230901Z

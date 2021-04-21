@@ -2,7 +2,7 @@
 ID: "2fe26c29-7a97-54bf-b73a-07f45d9459db"
 Parent: "a98ee9cc-a69c-5cb1-adc4-192299188aeb"
 Template: "a98ee9cc-a69c-5cb1-adc4-192299188aeb"
-Path: "/sitecore/templates/Project/jss/Styleguide-Layout-Tabs/__Standard Values"
+Path: "/sitecore/templates/Project/JSS/Styleguide-Layout-Tabs/__Standard Values"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010555Z
+      Value: 20210420T230417Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e495312c-0906-4085-9717-4c02dd7b5bcd"
+      Value: "b27b7a0f-6a0d-4c40-b0f8-30e259932659"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010555Z
+      Value: 20210420T230417Z

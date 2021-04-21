@@ -33,7 +33,7 @@ SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
-    au|sitecore\ServicesAPI|p*|+item:read|^*|ar|sitecore\JSS Import Service Users|pe|+item:create|pd|+item:create|
+    au|sitecore\ServicesAPI|p*|+item:read|^*|
 - ID: "f2db8ba1-e477-41f5-8ef5-22eefa8d2f6e"
   Hint: __Enabled Views
   Value: |
@@ -64,11 +64,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f00b690-648e-4bee-9846-a33832a5e3fb"
+      Value: "2aafa623-7abe-4214-8fe4-de31d0042b9f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201222T221757Z
+      Value: 20201109T183728Z

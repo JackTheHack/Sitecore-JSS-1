@@ -1,8 +1,8 @@
 ﻿---
 ID: "efc4eb7f-d037-5f4c-b239-87c03671caf0"
-Parent: "eff225d1-f340-5a28-b627-5c1b7836aee5"
+Parent: "513d820b-9794-411f-ac6d-1093d38069e6"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: "/sitecore/templates/Project/jss/Styleguide-FieldUsage-Checkbox"
+Path: "/sitecore/templates/Project/JSS/Styleguide-FieldUsage-Checkbox"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010547Z
+      Value: 20210420T230400Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +31,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bdcc5432-bb74-4faa-8be0-0c3602c4c688"
+      Value: "b73f2eb6-1e4c-4796-932e-a9a8ea0988e8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010557Z
+      Value: 20210420T230420Z

@@ -2,7 +2,7 @@
 ID: "63ac3b6e-5d21-5879-a7b0-41c090d06cdb"
 Parent: "948f9b45-4f87-5462-88f6-b55c07e0578e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/jss/ExampleCustomRouteType/Data/headline
+Path: /sitecore/templates/Project/JSS/ExampleCustomRouteType/Data/headline
 SharedFields:
 - ID: "39847666-389d-409b-95bd-f2016f11eed5"
   Hint: Unversioned
@@ -23,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010545Z
+      Value: 20210420T230356Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,11 +34,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d00b592f-4a67-4ff5-a71a-78ba5f01cc7c"
+      Value: "b309d57d-457c-4ca2-905f-794c8d983cca"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010545Z
+      Value: 20210420T230356Z

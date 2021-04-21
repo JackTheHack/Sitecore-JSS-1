@@ -1,15 +1,15 @@
 ﻿---
 ID: "52b52be3-4ab7-50ad-ac9f-5a5629cdcb1b"
-Parent: "eff225d1-f340-5a28-b627-5c1b7836aee5"
+Parent: "513d820b-9794-411f-ac6d-1093d38069e6"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/jss/ExampleCustomRouteType
+Path: /sitecore/templates/Project/JSS/ExampleCustomRouteType
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/16x16/routes.png
+  Value: Apps/32x32/Routes.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{E8EB771A-4FD1-5C70-810D-41098D5B650C}"
+  Value: "{F0CEA512-6762-4B3E-9C39-B8006CED9E1C}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{7274BA35-2873-50B6-A323-8C21BA5EE671}"
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010544Z
+      Value: 20210420T230356Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +31,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f92e7d5-9a86-4e48-a917-932850aeb9a4"
+      Value: "b006d841-8d80-47af-a381-45be27a70d82"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010545Z
+      Value: 20210420T230357Z

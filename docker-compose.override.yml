@@ -58,7 +58,7 @@ services:
   # Mount the Traefik configuration and certs.
   traefik:
     volumes:
-      - ./docker/traefik:C:/etc/traefik
+      - ./docker/traefik:C:/etc/traefik    
 
   # Mount our SQL data folder and use our custom image with the Headless Services (JSS)
   # module data added. See Dockerfile for details.
@@ -68,6 +68,8 @@ services:
       context: ./docker/build/mssql
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xp0-mssql:${SITECORE_VERSION}
+        SITECORE_POWERSHELL_IMAGE: ${SITECORE_POWERSHELL_IMAGE}
+        SXA_IMAGE: ${SXA_IMAGE}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
     volumes:
       - type: bind
@@ -90,6 +92,7 @@ services:
       context: ./docker/build/solr-init
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xp0-solr-init:${SITECORE_VERSION}
+        SXA_IMAGE: ${SXA_IMAGE}
 
   # Use our retagged Identity Server image.
   # Configure for a mounted license file instead of using SITECORE_LICENSE.
@@ -116,6 +119,8 @@ services:
         SOLUTION_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
         TOOLS_IMAGE: ${TOOLS_IMAGE}
         MANAGEMENT_SERVICES_IMAGE: ${MANAGEMENT_SERVICES_IMAGE}
+        SITECORE_POWERSHELL_IMAGE: ${SITECORE_POWERSHELL_IMAGE}
+        SXA_IMAGE: ${SXA_IMAGE}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
     depends_on:
       - solution

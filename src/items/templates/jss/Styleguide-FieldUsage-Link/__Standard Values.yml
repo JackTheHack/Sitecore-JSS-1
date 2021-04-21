@@ -2,7 +2,7 @@
 ID: "acb708d3-63a6-5111-9d12-58539611f3f9"
 Parent: "38dfd12e-eb12-51b7-9be3-3d408ba550e6"
 Template: "38dfd12e-eb12-51b7-9be3-3d408ba550e6"
-Path: "/sitecore/templates/Project/jss/Styleguide-FieldUsage-Link/__Standard Values"
+Path: "/sitecore/templates/Project/JSS/Styleguide-FieldUsage-Link/__Standard Values"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010552Z
+      Value: 20210420T230410Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "70a4a7a3-37a5-42c5-8b11-6f1f59b1e726"
+      Value: "94c8f609-a070-48ad-9b5b-778bae9305aa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010552Z
+      Value: 20210420T230410Z

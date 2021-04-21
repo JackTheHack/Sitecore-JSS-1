@@ -10,7 +10,7 @@
             },
             {
                 "name": "api-key",
-                "path": "/sitecore/system/Settings/Services/API Keys/JSS-1",
+                "path": "/sitecore/system/Settings/Services/API Keys/JSS",
                 "scope": "singleItem"
             },
             {

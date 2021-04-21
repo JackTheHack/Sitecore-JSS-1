@@ -1,50 +1,13 @@
 ﻿---
 ID: "1ff43460-608d-555b-9622-da07f187da9a"
-Parent: "d76c44eb-b3d9-596a-ad68-93cbf1ab3923"
+Parent: "e5899951-0de1-4d99-a29b-50a21a61b75e"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/Project/jss/jss-main"
+Path: "/sitecore/layout/Placeholder Settings/Project/JSS/jss-main"
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
   Value: "jss-main"
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Value: |
-    {49C9C989-2F42-5AE2-99F5-B7DD1F2A7D20}
-    {25833F66-195F-5675-A46E-96C26F5DDD90}
-    {D24F19E4-0FB6-5E21-B89D-DA5D09F7A24C}
-    {199015FF-035F-5186-841F-54554148E9A7}
-    {1D47BB6A-810F-5BA6-BA17-067E9CC0377C}
 Languages:
-- Language: "da-DK"
-  Fields:
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: Main
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20210416T040047Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\JssImport
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\JssImport
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "9f504a6d-e231-48f6-b36c-ade6d1a1e80b"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\JssImport
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20210416T040047Z
 - Language: en
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -55,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010557Z
+      Value: 20210420T230421Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -66,11 +29,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d279b6a4-7102-4dca-a8cc-643083545679"
+      Value: "75506667-14c1-470e-ab90-18c1dfed806c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210416T030555Z
+      Value: 20210420T230421Z

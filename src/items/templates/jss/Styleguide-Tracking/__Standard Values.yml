@@ -2,7 +2,7 @@
 ID: "c8f6d104-88ab-54ed-bcc1-9fac00980034"
 Parent: "86c00cd1-211e-5c36-91ee-af2b561b4b0d"
 Template: "86c00cd1-211e-5c36-91ee-af2b561b4b0d"
-Path: "/sitecore/templates/Project/jss/Styleguide-Tracking/__Standard Values"
+Path: "/sitecore/templates/Project/JSS/Styleguide-Tracking/__Standard Values"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210415T010556Z
+      Value: 20210420T230419Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ae6e22f-e25e-40cf-86ef-507ce16dfb83"
+      Value: "73b52317-7ad3-4cc7-a0d3-a891eb08b2d5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210415T010556Z
+      Value: 20210420T230419Z
