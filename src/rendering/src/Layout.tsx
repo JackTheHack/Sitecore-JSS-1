@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { useI18n } from 'next-localization';
 import { getPublicUrl } from 'lib/util';
-import ClientSidePlaceholder from 'lib/ClientSidePlaceholder.js';
+// import ClientSidePlaceholder from 'lib/ClientSidePlaceholder.js';
 import {
-  // Placeholder,
   LayoutServiceData,
   VisitorIdentification,
   useSitecoreContext,
+  Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { StyleguideSitecoreContextValue } from 'lib/component-props';
 
@@ -92,7 +92,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className="container">
-        <ClientSidePlaceholder name="jss-main" rendering={route} hideInitialContents={false} />
+        <Placeholder name="jss-main" rendering={route} hideInitialContents={false} />
       </div>
     </>
   );
