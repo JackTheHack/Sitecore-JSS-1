@@ -7,6 +7,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PlatformVersion>10.1.0</PlatformVersion>
+    <HeadlessVersion>17.0.0</HeadlessVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Update="Sitecore.Kernel" Version="$(PlatformVersion)" />
@@ -14,6 +15,8 @@
     <PackageReference Update="Sitecore.ContentSearch.Linq" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.LayoutService" Version="7.0.0" />
     <PackageReference Update="Sitecore.Assemblies.Platform" Version="$(PlatformVersion)" />
-    <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="17.0.0" />
+    <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="$(HeadlessVersion)" />
+    <PackageReference Update="Sitecore.JavaScriptServices.Core" Version="$(HeadlessVersion)" />
+    <PackageReference Update="Sitecore.JavaScriptServices.ViewEngine" Version="$(HeadlessVersion)" />
   </ItemGroup>
 </Project>

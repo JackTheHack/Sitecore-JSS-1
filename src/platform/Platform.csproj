@@ -63,21 +63,27 @@
     <PackageReference Include="Sitecore.LayoutService" />
     <PackageReference Include="Sitecore.Assemblies.Platform" />
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
+    <PackageReference Include="Sitecore.JavaScriptServices.Core" />    
+    <PackageReference Include="Sitecore.JavaScriptServices.ViewEngine" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Sitecore.LoadBalancing.config" />
     <Content Include="App_Config\Include\Sitecore.Media.config" />
     <Content Include="App_Config\Include\JSS-1.config" />
+    <Content Include="App_Config\Include\JSS.PersonalizationContext.config" />
     <Content Include="App_Config\Include\Sitecore.JavaScriptServices.AppServices.PublishingWebHook.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <None Include="web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPersonalizationContext.cs" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildProgramFiles32)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-  </PropertyGroup>  
+  </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <ProjectExtensions>
