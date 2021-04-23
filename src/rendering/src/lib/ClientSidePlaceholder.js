@@ -71,51 +71,6 @@ class ClientSidePlaceholder extends React.Component {
         return isEditing;
     }
 
-    recursiveFindPlaceholderElements(root, uid)
-    {   
-        if(!root)
-        {
-            return null;
-        }        
-
-        if(!root.placeholders)
-        {
-            return null;
-        }
-
-        var keys = Object.keys(root.placeholders);
-
-        let result = null;
-
-        keys.forEach(key => {
-            var placeholderElements = root.placeholders[key];
-
-            var element = placeholderElements.find(i => i.uid = uid);
-
-            if(element)
-            {
-                result = element;
-                result.placeholderKey = key;
-                result.parentUid = parent.uid;
-                return;
-            }
-
-            placeholderElements.forEach(k => {
-                if(k.placeholders){
-                    var recursiveElement = this.recursiveFindPlaceholderElements(k, uid);
-                    if(recursiveElement)
-                    {
-                        result = recursiveElement;
-                        return;
-                    }
-                }
-            })            
-        });
-
-        return result;
-
-    }
-
     shouldFetchPlaceholder() {
         var doRun = 
             this.isClientside() &&
