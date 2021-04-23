@@ -14,6 +14,7 @@ class ClientSidePlaceholder extends React.Component {
     }
 
     fetchPlaceholder(placeholderName, itemLanguage, itemId) {
+        console.log(`Fetch placeholder for ${config.sitecoreApiHost}`);
         return dataApi.fetchPlaceholderData(placeholderName, itemId, {
             layoutServiceConfig: { host: config.sitecoreApiHost },
             querystringParams: { sc_lang: itemLanguage, sc_apikey: config.sitecoreApiKey },
@@ -22,14 +23,16 @@ class ClientSidePlaceholder extends React.Component {
     }
 
     componentDidMount() {
-        const shouldFetch = this.shouldFetchPlaceholder();
+        const placeholderToFetch = this.shouldFetchPlaceholder();
 
-        if (shouldFetch) {
+        if (placeholderToFetch) {
+            console.log(`[${this.props.name}] Fetching personalized content for ${placeholderToFetch} placeholder `);
             const placeholderName = this.props.name;
             const { route } = this.props.sitecoreContext;
             const { itemLanguage, itemId } = route;
-
-            this.fetchPlaceholder(placeholderName, itemLanguage, itemId)
+            const renderingId = this.props.rendering.uid;
+            
+            this.fetchPlaceholder(placeholderToFetch, itemLanguage, itemId)
                 .then(result => {
                     this.setState({
                         elements: result.elements
@@ -68,8 +71,85 @@ class ClientSidePlaceholder extends React.Component {
         return isEditing;
     }
 
+    recursiveFindPlaceholderElements(root, uid)
+    {   
+        if(!root)
+        {
+            return null;
+        }        
+
+        if(!root.placeholders)
+        {
+            return null;
+        }
+
+        var keys = Object.keys(root.placeholders);
+
+        let result = null;
+
+        keys.forEach(key => {
+            var placeholderElements = root.placeholders[key];
+
+            var element = placeholderElements.find(i => i.uid = uid);
+
+            if(element)
+            {
+                result = element;
+                result.placeholderKey = key;
+                result.parentUid = parent.uid;
+                return;
+            }
+
+            placeholderElements.forEach(k => {
+                if(k.placeholders){
+                    var recursiveElement = this.recursiveFindPlaceholderElements(k, uid);
+                    if(recursiveElement)
+                    {
+                        result = recursiveElement;
+                        return;
+                    }
+                }
+            })            
+        });
+
+        return result;
+
+    }
+
     shouldFetchPlaceholder() {
-        return this.isClientside() && !this.isDisconnectedMode() && !this.isPageEditing();
+        var doRun = 
+            this.isClientside() &&
+            !this.isDisconnectedMode() && 
+            !this.isPageEditing() && 
+            this.props.sitecoreContext.personalization && 
+            this.props.sitecoreContext.personalization.personalizedRenderings;
+
+        if(!doRun)
+        {
+            return null;
+        }
+
+        var elementPlaceholderRenderings = this.props.rendering.placeholders[this.props.name];
+
+        if(!elementPlaceholderRenderings)
+        {
+            return null;
+        }
+
+        var placeholderToUpdate = null;
+        
+        elementPlaceholderRenderings.forEach(s => {
+            var personalizedRendering = 
+                this.props.sitecoreContext.personalization.personalizedRenderings
+                    .find(v => v.uid == s.uid);
+
+            if(personalizedRendering)
+            {
+                placeholderToUpdate = personalizedRendering.placeholder;
+            }
+        })
+
+        return placeholderToUpdate;
     }
 }
 
