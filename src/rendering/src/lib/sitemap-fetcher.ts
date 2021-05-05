@@ -32,7 +32,7 @@ export class SitecoreSitemapFetcher {
     if (process.env.JSS_MODE !== 'disconnected') return null;
 
     try {
-      const manifest = require('sitecore/manifest/sitecore-import.json');
+      const manifest = require('../../sitecore/manifest/sitecore-import.json');
 
       return manifest;
     } catch (error) {
