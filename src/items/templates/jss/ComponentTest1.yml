@@ -1,34 +1,23 @@
 ﻿---
-ID: "1ff43460-608d-555b-9622-da07f187da9a"
-Parent: "e5899951-0de1-4d99-a29b-50a21a61b75e"
-Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/Project/JSS/jss-main"
+ID: "0c475b00-dbd4-5ae2-95e9-a8edb2116e7e"
+Parent: "513d820b-9794-411f-ac6d-1093d38069e6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/JSS/ComponentTest1
 SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: "jss-main"
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 1
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Value: |
-    {49C9C989-2F42-5AE2-99F5-B7DD1F2A7D20}
-    {25833F66-195F-5675-A46E-96C26F5DDD90}
-    {D24F19E4-0FB6-5E21-B89D-DA5D09F7A24C}
-    {199015FF-035F-5186-841F-54554148E9A7}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{87333C43-5E0E-5470-9D16-DDE77E81AB13}"
 Languages:
 - Language: en
-  Fields:
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: Main
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210420T230421Z
+      Value: 20210423T002751Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -39,7 +28,7 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5bd79e51-0e66-4efa-8896-2bfec937064f"
+      Value: "b71667c0-475c-4925-8bfd-0fd5a9bd9b27"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

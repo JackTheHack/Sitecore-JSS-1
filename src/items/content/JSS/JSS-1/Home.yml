@@ -49,14 +49,14 @@ Languages:
         sitecore\Admin
     - ID: "6a3e544c-8ee4-5f1f-9d5b-3aea74894ae7"
       Hint: pageTitle
-      Value: Welcome to Sitecore JSS
+      Value: Welcome to Sitecore JSS 6
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dadd5cdf-8dae-4316-8906-107d492dfde4"
+      Value: "a5324367-a95d-477f-be0e-4af515bcacc9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210421T023057Z
+      Value: 20210422T054013Z

@@ -12,6 +12,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210421T012758Z
@@ -23,17 +26,17 @@ Languages:
       Value: "<small>Multi-line text tells Sitecore to use a <code>textarea</code> for editing; consumption in JSS is the same as single-line text.</small>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "508cdcc3-8be5-4ed5-8da8-1276c14fe907"
+      Value: "f6cb0ce2-bf35-4fdc-8154-08e416d0b2cf"
     - ID: "8d3019b8-f230-5254-8f8e-166e6675ee2f"
       Hint: sample
-      Value: "This is a sample multi-line text field. <mark>HTML is encoded.</mark> In Sitecore, editors will see a textarea."
+      Value: "This is a sample multi-line text field. HTML is encoded. In Sitecore, editors will see a textarea."
     - ID: "a0647054-4d54-58f3-8b87-3fbae194a3eb"
       Hint: sample2
       Value: "This is another sample multi-line text field using rendering options. <mark>HTML supported with encode=false.</mark>"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210421T012758Z
+      Value: 20210423T014631Z

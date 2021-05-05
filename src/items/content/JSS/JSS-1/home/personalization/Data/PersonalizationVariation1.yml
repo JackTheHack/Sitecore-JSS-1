@@ -1,0 +1,40 @@
+﻿---
+ID: "94dab1cb-fd99-49e8-9503-baf1274aa7d1"
+Parent: "71798341-b059-4708-912b-7786d7f1cf04"
+Template: "497d9cb2-68dc-52bb-809f-848708e65d0c"
+Path: "/sitecore/content/JSS/JSS-1/home/personalization/Data/PersonalizationVariation1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210421T040222Z
+    - ID: "3d6144c7-1c90-5864-ab97-32b1f0537ed7"
+      Hint: heading
+      Value: "Personalized!"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "764d22aa-6e79-50eb-9d58-ff0568203f48"
+      Hint: content
+      Value: Firefox detected
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "054589f2-465e-49ac-afa1-2fae38ef2258"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210421T040305Z
