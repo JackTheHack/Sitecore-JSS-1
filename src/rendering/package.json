@@ -100,6 +100,7 @@
     "start:disconnected-proxy": "ts-node --project tsconfig.scripts.json ./scripts/disconnected-mode-proxy.ts",
     "start:production": "npm-run-all --serial bootstrap next:build next:start",
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-factory.ts --watch",
-    "ngrok": "ngrok http -host-header=rewrite https://www.jss_1.localhost/"
+    "ngrok": "ngrok http -host-header=rewrite https://www.jss_1.localhost/",
+    "rootca": "powershell ./setRootCA.ps1"
   }
 }

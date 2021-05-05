@@ -1,0 +1,1 @@
+setx NODE_EXTRA_CA_CERTS C:\\Tools\\mkcert\\rootCA.pem
