@@ -48,6 +48,8 @@ export class SitecoreSitemapFetcher {
    */
   async fetch(context?: GetStaticPathsContext): Promise<StaticPath[]> {
     // If we are in Export/Disconnected Export mode
+    console.log(process.env.EXPORT_MODE);
+    console.log(process.env.JSS_MODE);
     if (process.env.EXPORT_MODE) {
       return process.env.JSS_MODE === 'disconnected'
         ? this._disconnectedSitemapService.fetchExportSitemap()
