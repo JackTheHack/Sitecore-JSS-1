@@ -30,6 +30,7 @@ WORKDIR /build
 
 # Copy prepped NuGet artifacts, and restore as distinct layer to take advantage of caching.
 COPY --from=nuget-prep ./nuget ./
+COPY ./docker ./docker
 
 # Restore NuGet packages
 RUN nuget restore -Verbosity quiet

@@ -4,7 +4,9 @@
 .vs
 .vscode
 build
-docker
+docker/data
+docker/build
+docker/traefik
 packages
 **/bin/
 **/obj/
